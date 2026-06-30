@@ -1,7 +1,5 @@
 const nomes = ["Ana Julia", "Caio vinicius", "BIA silva"];
 
-const nomesPadronizados = nomes.map((nomes) => {
-    return nome.toUpperCase();
-});
+const nomesPadronizados = nomes.map((nomes) => nome.toUpperCase());
 
-console.log(nomesPadronizados);
+console.log(nomesPadronizados); 
