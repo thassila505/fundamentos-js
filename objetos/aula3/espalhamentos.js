@@ -20,3 +20,12 @@ function ligaParaCliente(telefoneComercial, telefoneResidencial){
 }
 
 ligaParaCliente(cliente.telefone[0], cliente.telefone[1]);
+
+const encomenda= {
+    destinario: cliente.nome,
+    rua: cliente.endereco[0].rua,
+    numero: cliente.endereco[1].numero,
+
+};
+console.log(encomenda);
+
