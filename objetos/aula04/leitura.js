@@ -1,3 +1,7 @@
-const dados = riquire("./cliente.json");
+const dados = require("./cliente.json");
 
-console.log
+console.log(dados);
+console.log(typeof dados)
+
+const clienteEmString = JSON.stringify(dados);
+console.log(clienteEmString);
